@@ -16,6 +16,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (FactoryManager.Instance != null && FactoryManager.Instance.IsGameOver())
+        {
+            return;
+        }
+        
+        if (MinigameUIManager.Instance != null && MinigameUIManager.Instance.IsMinigameOpen())
+        {
+            if (controller.isGrounded && velocity.y < 0)
+            {
+                velocity.y = -2f;
+            }
+
+            velocity.y += gravity * Time.deltaTime;
+            controller.Move(velocity * Time.deltaTime);
+            return;
+        }
+        
         Vector2 input = Vector2.zero;
 
         if (Keyboard.current != null)
