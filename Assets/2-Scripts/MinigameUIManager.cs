@@ -7,6 +7,7 @@ public class MinigameUIManager : MonoBehaviour
     [Header("Panels")]
     public GameObject rootPanel;
     public TapRepairPanel tapRepairPanel;
+    public TimingRepairPanel timingRepairPanel;
 
     private Machine currentMachine;
     private bool isOpen = false;
@@ -56,6 +57,14 @@ public class MinigameUIManager : MonoBehaviour
                 }
                 break;
 
+            case MinigameType.TimingRepair:
+                if (timingRepairPanel != null)
+                {
+                    timingRepairPanel.gameObject.SetActive(true);
+                    timingRepairPanel.Begin(this);
+                }
+                break;
+
             default:
                 ResolveCurrentMinigame(false);
                 break;
@@ -71,7 +80,6 @@ public class MinigameUIManager : MonoBehaviour
 
         currentMachine = null;
         isOpen = false;
-
         CloseAllInstant();
     }
 
@@ -84,7 +92,6 @@ public class MinigameUIManager : MonoBehaviour
 
         currentMachine = null;
         isOpen = false;
-
         CloseAllInstant();
     }
 
@@ -98,6 +105,11 @@ public class MinigameUIManager : MonoBehaviour
         if (tapRepairPanel != null)
         {
             tapRepairPanel.gameObject.SetActive(false);
+        }
+
+        if (timingRepairPanel != null)
+        {
+            timingRepairPanel.gameObject.SetActive(false);
         }
     }
 

@@ -19,7 +19,7 @@ public class Machine : MonoBehaviour
     public float currentCooldownTimer = 0f;
     
     [Header("Minigame")]
-    public MinigameType minigameType = MinigameType.TapRepair;
+    public MinigameType minigameType = MinigameType.None;
 
     private Renderer objectRenderer;
     private Color normalColor = Color.white;
@@ -96,8 +96,6 @@ public class Machine : MonoBehaviour
 
         currentState = MachineState.InMinigame;
         UpdateVisual();
-
-        Debug.Log(machineId + " minigame started.");
 
         if (MinigameUIManager.Instance != null)
         {
