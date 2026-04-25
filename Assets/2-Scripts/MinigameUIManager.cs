@@ -73,28 +73,28 @@ public class MinigameUIManager : MonoBehaviour
     {
         if (tapRepairPanel == null) return;
 
-        int pressCount = 8;
-        float timeLimit = 4f;
+        int pressCount = 7;
+        float timeLimit = 5f;
 
         switch (difficulty)
         {
             case MinigameDifficulty.Easy:
-                pressCount = 5;
+                pressCount = 7;
                 timeLimit = 5f;
                 break;
 
             case MinigameDifficulty.Medium:
-                pressCount = 8;
-                timeLimit = 4f;
+                pressCount = 14;
+                timeLimit = 5f;
                 break;
 
             case MinigameDifficulty.Hard:
-                pressCount = 12;
-                timeLimit = 3f;
+                pressCount = 21;
+                timeLimit = 4f;
                 break;
         }
 
-        tapRepairPanel.Configure(pressCount, timeLimit);
+        tapRepairPanel.Configure(pressCount, timeLimit, difficulty);
         tapRepairPanel.gameObject.SetActive(true);
         tapRepairPanel.Begin(this);
     }
@@ -107,36 +107,39 @@ public class MinigameUIManager : MonoBehaviour
         float successMin = 0.4f;
         float successMax = 0.6f;
         float timeLimit = 4f;
+        int stageCount = 1;
 
         switch (difficulty)
         {
             case MinigameDifficulty.Easy:
                 moveSpeed = 1.2f;
-                successMin = 0.30f;
-                successMax = 0.70f;
+                successMin = 0.32f;
+                successMax = 0.68f;
                 timeLimit = 5f;
+                stageCount = 1;
                 break;
 
             case MinigameDifficulty.Medium:
-                moveSpeed = 1.6f;
-                successMin = 0.42f;
-                successMax = 0.58f;
-                timeLimit = 4f;
+                moveSpeed = 1.5f;
+                successMin = 0.36f;
+                successMax = 0.64f;
+                timeLimit = 4.5f;
+                stageCount = 2;
                 break;
 
             case MinigameDifficulty.Hard:
-                moveSpeed = 2.2f;
-                successMin = 0.47f;
-                successMax = 0.53f;
-                timeLimit = 3f;
+                moveSpeed = 1.9f;
+                successMin = 0.40f;
+                successMax = 0.60f;
+                timeLimit = 5f;
+                stageCount = 3;
                 break;
         }
 
-        timingRepairPanel.Configure(moveSpeed, successMin, successMax, timeLimit);
+        timingRepairPanel.Configure(moveSpeed, successMin, successMax, timeLimit, stageCount);
         timingRepairPanel.gameObject.SetActive(true);
         timingRepairPanel.Begin(this);
     }
-
     public void ResolveCurrentMinigame(bool success)
     {
         if (currentMachine != null)

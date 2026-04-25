@@ -6,19 +6,48 @@ using TMPro;
 public class TapRepairPanel : MonoBehaviour
 {
     [Header("UI")]
-    public TMP_Text titleText;
-    public TMP_Text infoText;
-    public Slider progressSlider;
     public Slider timerSlider;
+    public Image repairProgressImage;
+    public Sprite[] progressSprites;
+    public Image vana;
 
     [Header("Settings")]
-    public int requiredPressCount = 8;
-    public float duration = 4f;
+    public int requiredPressCount;
+    public float duration;
 
     private MinigameUIManager manager;
     private int currentPressCount;
     private float currentTime;
     private bool isRunning = false;
+
+    private MinigameDifficulty currentDifficulty = MinigameDifficulty.Medium;
+    private int pressesPerStage = 1;
+
+    public void Configure(int pressCount, float timeLimit, MinigameDifficulty difficulty)
+    {
+        requiredPressCount = pressCount;
+        duration = timeLimit;
+        currentDifficulty = difficulty;
+
+        switch (currentDifficulty)
+        {
+            case MinigameDifficulty.Easy:
+                pressesPerStage = 1;
+                break;
+
+            case MinigameDifficulty.Medium:
+                pressesPerStage = 2;
+                break;
+
+            case MinigameDifficulty.Hard:
+                pressesPerStage = 3;
+                break;
+
+            default:
+                pressesPerStage = 1;
+                break;
+        }
+    }
 
     public void Begin(MinigameUIManager uiManager)
     {
@@ -40,6 +69,12 @@ public class TapRepairPanel : MonoBehaviour
         {
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
             {
+                if (vana != null)
+                {
+                    int rotation = 20;
+                    vana.transform.Rotate(0, 0, rotation);
+                    rotation += 20;
+                }
                 currentPressCount++;
                 UpdateUI();
 
@@ -73,32 +108,28 @@ public class TapRepairPanel : MonoBehaviour
 
     private void UpdateUI()
     {
-        if (titleText != null)
-        {
-            titleText.text = "Tap Repair";
-        }
-
-        if (infoText != null)
-        {
-            infoText.text = "Press SPACE rapidly: " + currentPressCount + " / " + requiredPressCount;
-        }
-
-        if (progressSlider != null)
-        {
-            progressSlider.maxValue = requiredPressCount;
-            progressSlider.value = currentPressCount;
-        }
-
         if (timerSlider != null)
         {
             timerSlider.maxValue = duration;
             timerSlider.value = currentTime;
         }
+
+        UpdateRepairImage();
     }
-    
-    public void Configure(int pressCount, float timeLimit)
+
+    private void UpdateRepairImage()
     {
-        requiredPressCount = pressCount;
-        duration = timeLimit;
+        if (repairProgressImage == null) return;
+        if (progressSprites == null || progressSprites.Length == 0) return;
+
+        int stageIndex = currentPressCount / pressesPerStage;
+
+        if (currentPressCount >= requiredPressCount)
+        {
+            stageIndex = progressSprites.Length - 1;
+        }
+
+        stageIndex = Mathf.Clamp(stageIndex, 0, progressSprites.Length - 1);
+        repairProgressImage.sprite = progressSprites[stageIndex];
     }
 }

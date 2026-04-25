@@ -6,8 +6,7 @@ using TMPro;
 public class TimingRepairPanel : MonoBehaviour
 {
     [Header("UI")]
-    public TMP_Text titleText;
-    public TMP_Text infoText;
+    public TMP_Text stageText;
     public Slider movingSlider;
     public Slider timerSlider;
     public RectTransform successZone;
@@ -18,12 +17,14 @@ public class TimingRepairPanel : MonoBehaviour
     [Range(0f, 1f)] public float successMin = 0.4f;
     [Range(0f, 1f)] public float successMax = 0.6f;
     public float duration = 4f;
+    public int totalStages = 1;
 
     private MinigameUIManager manager;
     private float currentValue = 0f;
     private int direction = 1;
     private bool isRunning = false;
     private float currentTime = 0f;
+    private int currentStage = 1;
 
     public void Begin(MinigameUIManager uiManager)
     {
@@ -31,6 +32,7 @@ public class TimingRepairPanel : MonoBehaviour
         currentValue = 0f;
         direction = 1;
         currentTime = duration;
+        currentStage = 1;
         isRunning = true;
 
         if (movingSlider != null)
@@ -47,6 +49,7 @@ public class TimingRepairPanel : MonoBehaviour
             timerSlider.value = currentTime;
         }
 
+        RandomizeSuccessZone();
         UpdateUI();
         UpdateSuccessZoneVisual();
     }
@@ -115,20 +118,44 @@ public class TimingRepairPanel : MonoBehaviour
     private void CheckResult()
     {
         bool success = currentValue >= successMin && currentValue <= successMax;
-        isRunning = false;
-        manager.ResolveCurrentMinigame(success);
+
+        if (!success)
+        {
+            isRunning = false;
+            manager.ResolveCurrentMinigame(false);
+            return;
+        }
+
+        if (currentStage >= totalStages)
+        {
+            isRunning = false;
+            manager.ResolveCurrentMinigame(true);
+            return;
+        }
+
+        currentStage++;
+        ResetStage();
+        RandomizeSuccessZone();
+        UpdateSuccessZoneVisual();
+        UpdateUI();
+    }
+
+    private void ResetStage()
+    {
+        currentValue = 0f;
+        direction = 1;
+
+        if (movingSlider != null)
+        {
+            movingSlider.value = currentValue;
+        }
     }
 
     private void UpdateUI()
     {
-        if (titleText != null)
+        if (stageText != null)
         {
-            titleText.text = "Timing Repair";
-        }
-
-        if (infoText != null)
-        {
-            infoText.text = "Press SPACE when the marker is in the success zone";
+            stageText.text = "Stage " + currentStage + " / " + totalStages;
         }
     }
 
@@ -149,11 +176,25 @@ public class TimingRepairPanel : MonoBehaviour
         successZone.anchoredPosition = pos;
     }
     
-    public void Configure(float speed, float minZone, float maxZone, float timeLimit)
+    private void RandomizeSuccessZone()
+    {
+        float zoneSize = successMax - successMin;
+        float randomCenter = Random.Range(0.2f, 0.8f);
+
+        float halfZone = zoneSize * 0.5f;
+
+        randomCenter = Mathf.Clamp(randomCenter, halfZone, 1f - halfZone);
+
+        successMin = randomCenter - halfZone;
+        successMax = randomCenter + halfZone;
+    }
+
+    public void Configure(float speed, float minZone, float maxZone, float timeLimit, int stageCount)
     {
         moveSpeed = speed;
         successMin = minZone;
         successMax = maxZone;
         duration = timeLimit;
+        totalStages = stageCount;
     }
 }
