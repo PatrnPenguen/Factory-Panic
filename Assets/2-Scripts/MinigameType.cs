@@ -2,5 +2,7 @@ public enum MinigameType
 {
     None,
     TapRepair,
-    TimingRepair
+    TimingRepair,
+    SequenceRepair,
+    HoldRepair
 }

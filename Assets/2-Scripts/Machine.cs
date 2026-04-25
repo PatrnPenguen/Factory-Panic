@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Machine : MonoBehaviour
 {
-    [Header("Machine Identity")]
-    public string machineId = "Machine_01";
+    [Header("Visuals")]
+    public GameObject healthyVisual;
+    public GameObject brokenVisual;
 
     [Header("Timing")]
     public float brokenDuration = 8f;
@@ -17,26 +18,13 @@ public class Machine : MonoBehaviour
     public MachineState currentState = MachineState.Idle;
     public float currentBrokenTimer = 0f;
     public float currentCooldownTimer = 0f;
-    
+
     [Header("Minigame")]
     public MinigameType minigameType = MinigameType.TapRepair;
     public MinigameDifficulty minigameDifficulty = MinigameDifficulty.Easy;
 
-    private Renderer objectRenderer;
-    private Color normalColor = Color.white;
-    private Color brokenColor = Color.red;
-    private Color cooldownColor = Color.gray;
-    private Color minigameColor = Color.yellow;
-
     void Awake()
     {
-        objectRenderer = GetComponent<Renderer>();
-
-        if (objectRenderer != null)
-        {
-            normalColor = objectRenderer.material.color;
-        }
-
         UpdateVisual();
     }
 
@@ -88,7 +76,7 @@ public class Machine : MonoBehaviour
         currentBrokenTimer = brokenDuration;
 
         UpdateVisual();
-        Debug.Log(machineId + " broke down.");
+
     }
 
     public void StartMinigame()
@@ -96,6 +84,7 @@ public class Machine : MonoBehaviour
         if (currentState != MachineState.Broken) return;
 
         currentState = MachineState.InMinigame;
+
         UpdateVisual();
 
         if (MinigameUIManager.Instance != null)
@@ -110,8 +99,6 @@ public class Machine : MonoBehaviour
 
         if (success)
         {
-            Debug.Log(machineId + " repaired successfully.");
-
             if (LevelManager.Instance != null)
             {
                 LevelManager.Instance.RegisterSuccessfulRepair();
@@ -121,8 +108,6 @@ public class Machine : MonoBehaviour
         }
         else
         {
-            Debug.Log(machineId + " minigame failed.");
-
             if (LevelManager.Instance != null)
             {
                 LevelManager.Instance.DamageFactory(damageOnMinigameFail);
@@ -135,9 +120,12 @@ public class Machine : MonoBehaviour
     private void HandleBrokenTimeout()
     {
         if (currentState != MachineState.Broken) return;
+        
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.DamageFactory(damageOnTimeout);
+        }
 
-        Debug.Log(machineId + " timeout. Factory takes damage.");
-        LevelManager.Instance.DamageFactory(damageOnTimeout);
         StartCooldown();
     }
 
@@ -145,6 +133,7 @@ public class Machine : MonoBehaviour
     {
         currentState = MachineState.Cooldown;
         currentCooldownTimer = rebreakCooldown;
+
         UpdateVisual();
     }
 
@@ -153,29 +142,23 @@ public class Machine : MonoBehaviour
         currentState = MachineState.Idle;
         currentBrokenTimer = 0f;
         currentCooldownTimer = 0f;
-        UpdateVisual();
 
-        Debug.Log(machineId + " is ready again.");
+        UpdateVisual();
     }
 
     private void UpdateVisual()
     {
-        if (objectRenderer == null) return;
+        bool shouldShowBroken = currentState == MachineState.Broken || currentState == MachineState.InMinigame;
+        bool shouldShowHealthy = !shouldShowBroken;
 
-        switch (currentState)
+        if (healthyVisual != null)
         {
-            case MachineState.Idle:
-                objectRenderer.material.color = normalColor;
-                break;
-            case MachineState.Broken:
-                objectRenderer.material.color = brokenColor;
-                break;
-            case MachineState.InMinigame:
-                objectRenderer.material.color = minigameColor;
-                break;
-            case MachineState.Cooldown:
-                objectRenderer.material.color = cooldownColor;
-                break;
+            healthyVisual.SetActive(shouldShowHealthy);
+        }
+
+        if (brokenVisual != null)
+        {
+            brokenVisual.SetActive(shouldShowBroken);
         }
     }
 
@@ -186,12 +169,13 @@ public class Machine : MonoBehaviour
 
         return Mathf.Clamp01(currentBrokenTimer / brokenDuration);
     }
-    
+
     public void ForceStopMachine()
     {
         currentState = MachineState.Idle;
         currentBrokenTimer = 0f;
         currentCooldownTimer = 0f;
+
         UpdateVisual();
     }
 }

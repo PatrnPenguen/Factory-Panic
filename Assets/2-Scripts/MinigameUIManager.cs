@@ -8,6 +8,8 @@ public class MinigameUIManager : MonoBehaviour
     public GameObject rootPanel;
     public TapRepairPanel tapRepairPanel;
     public TimingRepairPanel timingRepairPanel;
+    public SequenceRepairPanel sequenceRepairPanel;
+    public HoldRepairPanel holdRepairPanel;
 
     private Machine currentMachine;
     private bool isOpen = false;
@@ -63,12 +65,20 @@ public class MinigameUIManager : MonoBehaviour
                 OpenTimingRepairByDifficulty(currentMachine.minigameDifficulty);
                 break;
 
+            case MinigameType.SequenceRepair:
+                OpenSequenceRepairByDifficulty(currentMachine.minigameDifficulty);
+                break;
+
+            case MinigameType.HoldRepair:
+                OpenHoldRepairByDifficulty(currentMachine.minigameDifficulty);
+                break;
+
             default:
                 ResolveCurrentMinigame(false);
                 break;
         }
     }
-    
+
     private void OpenTapRepairByDifficulty(MinigameDifficulty difficulty)
     {
         if (tapRepairPanel == null) return;
@@ -140,6 +150,83 @@ public class MinigameUIManager : MonoBehaviour
         timingRepairPanel.gameObject.SetActive(true);
         timingRepairPanel.Begin(this);
     }
+
+    private void OpenSequenceRepairByDifficulty(MinigameDifficulty difficulty)
+    {
+        if (sequenceRepairPanel == null) return;
+
+        int sequenceLength = 3;
+        float timeLimit = 6f;
+
+        switch (difficulty)
+        {
+            case MinigameDifficulty.Easy:
+                sequenceLength = 3;
+                timeLimit = 6f;
+                break;
+
+            case MinigameDifficulty.Medium:
+                sequenceLength = 5;
+                timeLimit = 6f;
+                break;
+
+            case MinigameDifficulty.Hard:
+                sequenceLength = 7;
+                timeLimit = 5f;
+                break;
+        }
+
+        sequenceRepairPanel.Configure(sequenceLength, timeLimit);
+        sequenceRepairPanel.gameObject.SetActive(true);
+        sequenceRepairPanel.Begin(this);
+    }
+
+    private void OpenHoldRepairByDifficulty(MinigameDifficulty difficulty)
+    {
+        if (holdRepairPanel == null) return;
+
+        float fillSpeed = 0.65f;
+        float drainSpeed = 0.35f;
+        float successMin = 0.42f;
+        float successMax = 0.68f;
+        float timeLimit = 5f;
+        int stageCount = 1;
+
+        switch (difficulty)
+        {
+            case MinigameDifficulty.Easy:
+                fillSpeed = 0.55f;
+                drainSpeed = 0.25f;
+                successMin = 0.35f;
+                successMax = 0.75f;
+                timeLimit = 6f;
+                stageCount = 1;
+                break;
+
+            case MinigameDifficulty.Medium:
+                fillSpeed = 0.70f;
+                drainSpeed = 0.35f;
+                successMin = 0.42f;
+                successMax = 0.68f;
+                timeLimit = 5f;
+                stageCount = 2;
+                break;
+
+            case MinigameDifficulty.Hard:
+                fillSpeed = 0.95f;
+                drainSpeed = 0.45f;
+                successMin = 0.48f;
+                successMax = 0.62f;
+                timeLimit = 4f;
+                stageCount = 3;
+                break;
+        }
+
+        holdRepairPanel.Configure(fillSpeed, drainSpeed, successMin, successMax, timeLimit, stageCount);
+        holdRepairPanel.gameObject.SetActive(true);
+        holdRepairPanel.Begin(this);
+    }
+
     public void ResolveCurrentMinigame(bool success)
     {
         if (currentMachine != null)
@@ -149,6 +236,7 @@ public class MinigameUIManager : MonoBehaviour
 
         currentMachine = null;
         isOpen = false;
+
         CloseAllInstant();
     }
 
@@ -161,6 +249,7 @@ public class MinigameUIManager : MonoBehaviour
 
         currentMachine = null;
         isOpen = false;
+
         CloseAllInstant();
     }
 
@@ -179,6 +268,16 @@ public class MinigameUIManager : MonoBehaviour
         if (timingRepairPanel != null)
         {
             timingRepairPanel.gameObject.SetActive(false);
+        }
+
+        if (sequenceRepairPanel != null)
+        {
+            sequenceRepairPanel.gameObject.SetActive(false);
+        }
+
+        if (holdRepairPanel != null)
+        {
+            holdRepairPanel.gameObject.SetActive(false);
         }
     }
 
