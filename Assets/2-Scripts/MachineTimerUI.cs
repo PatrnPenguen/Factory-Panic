@@ -17,7 +17,12 @@ public class MachineTimerUI : MonoBehaviour
 
     void LateUpdate()
     {
-        if (FactoryManager.Instance != null && FactoryManager.Instance.IsGameOver())
+        if (LevelManager.Instance != null && LevelManager.Instance.IsGameOver())
+        {
+            worldCanvas.gameObject.SetActive(false);
+            return;
+        }
+        if (LevelManager.Instance != null && LevelManager.Instance.IsLevelComplete())
         {
             worldCanvas.gameObject.SetActive(false);
             return;

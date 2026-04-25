@@ -7,10 +7,16 @@ public class PlayerRepair : MonoBehaviour
 
     void Update()
     {
-        if (FactoryManager.Instance != null && FactoryManager.Instance.IsGameOver())
+        if (LevelManager.Instance != null && LevelManager.Instance.IsGameOver())
         {
             return;
         }
+
+        if (LevelManager.Instance != null && LevelManager.Instance.IsLevelComplete())
+        {
+            return;
+        }
+        
         if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
         {
             TryInteractWithMachine();

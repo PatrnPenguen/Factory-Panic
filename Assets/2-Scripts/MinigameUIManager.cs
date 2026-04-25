@@ -47,28 +47,94 @@ public class MinigameUIManager : MonoBehaviour
     {
         HideAllMinigamePanels();
 
+        if (currentMachine == null)
+        {
+            ResolveCurrentMinigame(false);
+            return;
+        }
+
         switch (minigameType)
         {
             case MinigameType.TapRepair:
-                if (tapRepairPanel != null)
-                {
-                    tapRepairPanel.gameObject.SetActive(true);
-                    tapRepairPanel.Begin(this);
-                }
+                OpenTapRepairByDifficulty(currentMachine.minigameDifficulty);
                 break;
 
             case MinigameType.TimingRepair:
-                if (timingRepairPanel != null)
-                {
-                    timingRepairPanel.gameObject.SetActive(true);
-                    timingRepairPanel.Begin(this);
-                }
+                OpenTimingRepairByDifficulty(currentMachine.minigameDifficulty);
                 break;
 
             default:
                 ResolveCurrentMinigame(false);
                 break;
         }
+    }
+    
+    private void OpenTapRepairByDifficulty(MinigameDifficulty difficulty)
+    {
+        if (tapRepairPanel == null) return;
+
+        int pressCount = 8;
+        float timeLimit = 4f;
+
+        switch (difficulty)
+        {
+            case MinigameDifficulty.Easy:
+                pressCount = 5;
+                timeLimit = 5f;
+                break;
+
+            case MinigameDifficulty.Medium:
+                pressCount = 8;
+                timeLimit = 4f;
+                break;
+
+            case MinigameDifficulty.Hard:
+                pressCount = 12;
+                timeLimit = 3f;
+                break;
+        }
+
+        tapRepairPanel.Configure(pressCount, timeLimit);
+        tapRepairPanel.gameObject.SetActive(true);
+        tapRepairPanel.Begin(this);
+    }
+
+    private void OpenTimingRepairByDifficulty(MinigameDifficulty difficulty)
+    {
+        if (timingRepairPanel == null) return;
+
+        float moveSpeed = 1.5f;
+        float successMin = 0.4f;
+        float successMax = 0.6f;
+        float timeLimit = 4f;
+
+        switch (difficulty)
+        {
+            case MinigameDifficulty.Easy:
+                moveSpeed = 1.2f;
+                successMin = 0.30f;
+                successMax = 0.70f;
+                timeLimit = 5f;
+                break;
+
+            case MinigameDifficulty.Medium:
+                moveSpeed = 1.6f;
+                successMin = 0.42f;
+                successMax = 0.58f;
+                timeLimit = 4f;
+                break;
+
+            case MinigameDifficulty.Hard:
+                moveSpeed = 2.2f;
+                successMin = 0.47f;
+                successMax = 0.53f;
+                timeLimit = 3f;
+                break;
+        }
+
+        timingRepairPanel.Configure(moveSpeed, successMin, successMax, timeLimit);
+        timingRepairPanel.gameObject.SetActive(true);
+        timingRepairPanel.Begin(this);
     }
 
     public void ResolveCurrentMinigame(bool success)

@@ -95,4 +95,10 @@ public class TapRepairPanel : MonoBehaviour
             timerSlider.value = currentTime;
         }
     }
+    
+    public void Configure(int pressCount, float timeLimit)
+    {
+        requiredPressCount = pressCount;
+        duration = timeLimit;
+    }
 }

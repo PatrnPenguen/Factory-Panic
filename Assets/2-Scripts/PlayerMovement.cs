@@ -16,7 +16,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (FactoryManager.Instance != null && FactoryManager.Instance.IsGameOver())
+        if (LevelManager.Instance != null && LevelManager.Instance.IsGameOver())
+        {
+            return;
+        }
+
+        if (LevelManager.Instance != null && LevelManager.Instance.IsLevelComplete())
         {
             return;
         }

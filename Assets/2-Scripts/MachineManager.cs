@@ -31,7 +31,12 @@ public class MachineManager : MonoBehaviour
 
         while (true)
         {
-            if (FactoryManager.Instance != null && FactoryManager.Instance.IsGameOver())
+            if (LevelManager.Instance != null && LevelManager.Instance.IsGameOver())
+            {
+                yield break;
+            }
+
+            if (LevelManager.Instance != null && LevelManager.Instance.IsLevelComplete())
             {
                 yield break;
             }
@@ -120,6 +125,17 @@ public class MachineManager : MonoBehaviour
             }
 
             safety++;
+        }
+    }
+    
+    public void StopAllMachines()
+    {
+        foreach (Machine machine in machines)
+        {
+            if (machine != null)
+            {
+                machine.ForceStopMachine();
+            }
         }
     }
 }

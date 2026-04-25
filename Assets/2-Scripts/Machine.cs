@@ -19,7 +19,8 @@ public class Machine : MonoBehaviour
     public float currentCooldownTimer = 0f;
     
     [Header("Minigame")]
-    public MinigameType minigameType = MinigameType.None;
+    public MinigameType minigameType = MinigameType.TapRepair;
+    public MinigameDifficulty minigameDifficulty = MinigameDifficulty.Easy;
 
     private Renderer objectRenderer;
     private Color normalColor = Color.white;
@@ -110,12 +111,23 @@ public class Machine : MonoBehaviour
         if (success)
         {
             Debug.Log(machineId + " repaired successfully.");
+
+            if (LevelManager.Instance != null)
+            {
+                LevelManager.Instance.RegisterSuccessfulRepair();
+            }
+
             StartCooldown();
         }
         else
         {
             Debug.Log(machineId + " minigame failed.");
-            FactoryManager.Instance.DamageFactory(damageOnMinigameFail);
+
+            if (LevelManager.Instance != null)
+            {
+                LevelManager.Instance.DamageFactory(damageOnMinigameFail);
+            }
+
             StartCooldown();
         }
     }
@@ -125,7 +137,7 @@ public class Machine : MonoBehaviour
         if (currentState != MachineState.Broken) return;
 
         Debug.Log(machineId + " timeout. Factory takes damage.");
-        FactoryManager.Instance.DamageFactory(damageOnTimeout);
+        LevelManager.Instance.DamageFactory(damageOnTimeout);
         StartCooldown();
     }
 
@@ -173,5 +185,13 @@ public class Machine : MonoBehaviour
         if (brokenDuration <= 0f) return 0f;
 
         return Mathf.Clamp01(currentBrokenTimer / brokenDuration);
+    }
+    
+    public void ForceStopMachine()
+    {
+        currentState = MachineState.Idle;
+        currentBrokenTimer = 0f;
+        currentCooldownTimer = 0f;
+        UpdateVisual();
     }
 }

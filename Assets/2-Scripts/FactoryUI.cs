@@ -8,31 +8,50 @@ public class FactoryUI : MonoBehaviour
     public TMP_Text healthText;
     public Slider healthSlider;
 
+    [Header("Progress UI")]
+    public TMP_Text progressText;
+    public Slider progressSlider;
+
     [Header("Game Over UI")]
     public GameObject gameOverPanel;
     public TMP_Text gameOverText;
 
+    [Header("Win UI")]
+    public GameObject winPanel;
+    public TMP_Text winText;
+
     void Start()
     {
-        if (FactoryManager.Instance != null)
+        if (LevelManager.Instance != null)
         {
-            FactoryManager.Instance.OnHealthChanged += UpdateHealthUI;
-            FactoryManager.Instance.OnGameOver += ShowGameOver;
-            UpdateHealthUI(FactoryManager.Instance.currentHealth, FactoryManager.Instance.maxHealth);
+            LevelManager.Instance.OnHealthChanged += UpdateHealthUI;
+            LevelManager.Instance.OnGameOver += ShowGameOver;
+            LevelManager.Instance.OnProgressChanged += UpdateProgressUI;
+            LevelManager.Instance.OnLevelWon += ShowWinPanel;
+
+            UpdateHealthUI(LevelManager.Instance.currentHealth, LevelManager.Instance.maxHealth);
+            UpdateProgressUI(LevelManager.Instance.currentFixedMachines, LevelManager.Instance.targetFixedMachines);
         }
 
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
         }
+
+        if (winPanel != null)
+        {
+            winPanel.SetActive(false);
+        }
     }
 
     void OnDestroy()
     {
-        if (FactoryManager.Instance != null)
+        if (LevelManager.Instance != null)
         {
-            FactoryManager.Instance.OnHealthChanged -= UpdateHealthUI;
-            FactoryManager.Instance.OnGameOver -= ShowGameOver;
+            LevelManager.Instance.OnHealthChanged -= UpdateHealthUI;
+            LevelManager.Instance.OnGameOver -= ShowGameOver;
+            LevelManager.Instance.OnProgressChanged -= UpdateProgressUI;
+            LevelManager.Instance.OnLevelWon -= ShowWinPanel;
         }
     }
 
@@ -40,13 +59,27 @@ public class FactoryUI : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = "Health: " + currentHealth + " / " + maxHealth;
+            healthText.text = "Factory Health: " + currentHealth + " / " + maxHealth;
         }
 
         if (healthSlider != null)
         {
             healthSlider.maxValue = maxHealth;
             healthSlider.value = currentHealth;
+        }
+    }
+
+    private void UpdateProgressUI(int currentFixed, int targetFixed)
+    {
+        if (progressText != null)
+        {
+            progressText.text = "Machines Fixed: " + currentFixed + " / " + targetFixed;
+        }
+
+        if (progressSlider != null)
+        {
+            progressSlider.maxValue = targetFixed;
+            progressSlider.value = currentFixed;
         }
     }
 
@@ -60,6 +93,43 @@ public class FactoryUI : MonoBehaviour
         if (gameOverText != null)
         {
             gameOverText.text = "GAME OVER";
+        }
+    }
+
+    private void ShowWinPanel()
+    {
+        if (winPanel != null)
+        {
+            winPanel.SetActive(true);
+        }
+
+        if (winText != null)
+        {
+            winText.text = "LEVEL COMPLETE";
+        }
+    }
+
+    public void OnRetryButtonClicked()
+    {
+        if (LevelSceneManager.Instance != null)
+        {
+            LevelSceneManager.Instance.RetryCurrentLevel();
+        }
+    }
+
+    public void OnMainMenuButtonClicked()
+    {
+        if (LevelSceneManager.Instance != null)
+        {
+            LevelSceneManager.Instance.LoadMainMenu();
+        }
+    }
+
+    public void OnNextLevelButtonClicked()
+    {
+        if (LevelSceneManager.Instance != null)
+        {
+            LevelSceneManager.Instance.LoadNextLevel();
         }
     }
 }

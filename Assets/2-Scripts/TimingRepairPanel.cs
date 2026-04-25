@@ -148,4 +148,12 @@ public class TimingRepairPanel : MonoBehaviour
         pos.x = zoneCenter;
         successZone.anchoredPosition = pos;
     }
+    
+    public void Configure(float speed, float minZone, float maxZone, float timeLimit)
+    {
+        moveSpeed = speed;
+        successMin = minZone;
+        successMax = maxZone;
+        duration = timeLimit;
+    }
 }
