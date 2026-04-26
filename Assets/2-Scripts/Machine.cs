@@ -5,6 +5,11 @@ public class Machine : MonoBehaviour
     [Header("Visuals")]
     public GameObject healthyVisual;
     public GameObject brokenVisual;
+    
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip breakSound;
+    public AudioClip repairSuccessSound;
 
     [Header("Timing")]
     public float brokenDuration = 8f;
@@ -25,6 +30,13 @@ public class Machine : MonoBehaviour
 
     void Awake()
     {
+        ResetDifficulty();
+        
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+        
         UpdateVisual();
     }
 
@@ -32,6 +44,43 @@ public class Machine : MonoBehaviour
     {
         UpdateBrokenState();
         UpdateCooldownState();
+    }
+    
+    private void ResetDifficulty()
+    {
+        minigameDifficulty = MinigameDifficulty.Easy;
+    }
+    
+    private void PlayBreakSound()
+    {
+        if (audioSource == null || breakSound == null)
+        {
+            return;
+        }
+
+        audioSource.PlayOneShot(breakSound);
+    }
+    
+    private void PlayRepairSuccessSound()
+    {
+        if (repairSuccessSound == null)
+        {
+            return;
+        }
+        Debug.Log("playing repair success sound");
+        audioSource.PlayOneShot(repairSuccessSound);
+    }
+
+    private void IncreaseDifficultyAfterSuccess()
+    {
+        if (minigameDifficulty == MinigameDifficulty.Easy)
+        {
+            minigameDifficulty = MinigameDifficulty.Medium;
+        }
+        else if (minigameDifficulty == MinigameDifficulty.Medium)
+        {
+            minigameDifficulty = MinigameDifficulty.Hard;
+        }
     }
 
     private void UpdateBrokenState()
@@ -74,7 +123,8 @@ public class Machine : MonoBehaviour
 
         currentState = MachineState.Broken;
         currentBrokenTimer = brokenDuration;
-
+        
+        PlayBreakSound();
         UpdateVisual();
 
     }
@@ -99,6 +149,9 @@ public class Machine : MonoBehaviour
 
         if (success)
         {
+            PlayRepairSuccessSound();
+            IncreaseDifficultyAfterSuccess();
+
             if (LevelManager.Instance != null)
             {
                 LevelManager.Instance.RegisterSuccessfulRepair();

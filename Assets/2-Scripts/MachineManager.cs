@@ -15,10 +15,17 @@ public class MachineManager : MonoBehaviour
     public int minMachinesPerWave = 1;
     public int maxMachinesPerWave = 2;
 
+    [Header("Wave Scaling")]
+    public int wavesPerIncrease = 3;
+    public int maxIncreaseCount = 3;
+    public int machineIncreaseAmount = 1;
+
     [Header("Break Mode")]
     public bool useSequentialOrder = false;
 
     private int sequentialIndex = 0;
+    private int currentWave = 0;
+    private int appliedIncreaseCount = 0;
 
     void Start()
     {
@@ -49,6 +56,10 @@ public class MachineManager : MonoBehaviour
 
     private void TriggerBreakWave()
     {
+        currentWave++;
+
+        ApplyWaveScaling();
+
         List<Machine> availableMachines = GetAvailableMachines();
 
         if (availableMachines.Count == 0)
@@ -60,6 +71,8 @@ public class MachineManager : MonoBehaviour
         int breakCount = Random.Range(minMachinesPerWave, maxMachinesPerWave + 1);
         breakCount = Mathf.Min(breakCount, availableMachines.Count);
 
+        Debug.Log("Wave " + currentWave + " started. Breaking " + breakCount + " machines.");
+
         if (useSequentialOrder)
         {
             BreakSequential(availableMachines, breakCount);
@@ -67,6 +80,28 @@ public class MachineManager : MonoBehaviour
         else
         {
             BreakRandom(availableMachines, breakCount);
+        }
+    }
+
+    private void ApplyWaveScaling()
+    {
+        if (appliedIncreaseCount >= maxIncreaseCount)
+        {
+            return;
+        }
+
+        if (currentWave % wavesPerIncrease == 0)
+        {
+            minMachinesPerWave += machineIncreaseAmount;
+            maxMachinesPerWave += machineIncreaseAmount;
+            appliedIncreaseCount++;
+            waveInterval -= 0.5f;
+
+            Debug.Log(
+                "Wave scaling applied. Min: " + minMachinesPerWave +
+                ", Max: " + maxMachinesPerWave +
+                ", Increase Count: " + appliedIncreaseCount
+            );
         }
     }
 
@@ -91,7 +126,10 @@ public class MachineManager : MonoBehaviour
 
         for (int i = 0; i < breakCount; i++)
         {
-            if (tempList.Count == 0) break;
+            if (tempList.Count == 0)
+            {
+                break;
+            }
 
             int randomIndex = Random.Range(0, tempList.Count);
             Machine selectedMachine = tempList[randomIndex];
@@ -108,11 +146,15 @@ public class MachineManager : MonoBehaviour
 
         while (broken < breakCount && safety < machines.Count * 2)
         {
-            if (machines.Count == 0) break;
+            if (machines.Count == 0)
+            {
+                break;
+            }
 
             Machine machine = machines[sequentialIndex];
 
             sequentialIndex++;
+
             if (sequentialIndex >= machines.Count)
             {
                 sequentialIndex = 0;
@@ -127,7 +169,7 @@ public class MachineManager : MonoBehaviour
             safety++;
         }
     }
-    
+
     public void StopAllMachines()
     {
         foreach (Machine machine in machines)
