@@ -99,6 +99,8 @@ public class FactoryUI : MonoBehaviour
 
     public void OnRetryButtonClicked()
     {
+        PlayClickSound();
+
         if (LevelSceneManager.Instance != null)
         {
             LevelSceneManager.Instance.RetryCurrentLevel();
@@ -107,6 +109,8 @@ public class FactoryUI : MonoBehaviour
 
     public void OnMainMenuButtonClicked()
     {
+        PlayClickSound();
+
         if (LevelSceneManager.Instance != null)
         {
             LevelSceneManager.Instance.LoadMainMenu();
@@ -115,9 +119,19 @@ public class FactoryUI : MonoBehaviour
 
     public void OnNextLevelButtonClicked()
     {
+        PlayClickSound();
+
         if (LevelSceneManager.Instance != null)
         {
             LevelSceneManager.Instance.LoadNextLevel();
+        }
+    }
+    
+    public void PlayClickSound()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayButtonClick();
         }
     }
 }
