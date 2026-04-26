@@ -14,11 +14,9 @@ public class FactoryUI : MonoBehaviour
 
     [Header("Game Over UI")]
     public GameObject gameOverPanel;
-    public TMP_Text gameOverText;
 
     [Header("Win UI")]
     public GameObject winPanel;
-    public TMP_Text winText;
 
     void Start()
     {
@@ -59,7 +57,7 @@ public class FactoryUI : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = "Factory Health: " + currentHealth + " / " + maxHealth;
+            healthText.text = "Factory Health: " + currentHealth + "/" + maxHealth;
         }
 
         if (healthSlider != null)
@@ -73,7 +71,7 @@ public class FactoryUI : MonoBehaviour
     {
         if (progressText != null)
         {
-            progressText.text = "Machines Fixed: " + currentFixed + " / " + targetFixed;
+            progressText.text = "Machines Fixed: " + currentFixed + "/" + targetFixed;
         }
 
         if (progressSlider != null)
@@ -89,11 +87,6 @@ public class FactoryUI : MonoBehaviour
         {
             gameOverPanel.SetActive(true);
         }
-
-        if (gameOverText != null)
-        {
-            gameOverText.text = "GAME OVER";
-        }
     }
 
     private void ShowWinPanel()
@@ -101,11 +94,6 @@ public class FactoryUI : MonoBehaviour
         if (winPanel != null)
         {
             winPanel.SetActive(true);
-        }
-
-        if (winText != null)
-        {
-            winText.text = "LEVEL COMPLETE";
         }
     }
 
