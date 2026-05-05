@@ -50,6 +50,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Machine
   healthyVisual: {fileID: 4330057750535913794}
   brokenVisual: {fileID: 8893496212580753450}
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
+  repairSuccessSound: {fileID: 0}
   brokenDuration: 8
   rebreakCooldown: 10
   damageOnTimeout: 1
