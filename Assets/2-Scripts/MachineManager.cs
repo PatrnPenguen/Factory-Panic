@@ -18,7 +18,9 @@ public class MachineManager : MonoBehaviour
     [Header("Wave Scaling")]
     public int wavesPerIncrease = 3;
     public int maxIncreaseCount = 3;
-    public int machineIncreaseAmount = 1;
+    public int maxMachineIncreaseAmount = 1;
+    public int minMachineIncreaseAmount = 1;
+    private bool isMinIncreased = false;
 
     [Header("Break Mode")]
     public bool useSequentialOrder = false;
@@ -90,12 +92,16 @@ public class MachineManager : MonoBehaviour
             return;
         }
 
-        if (currentWave % wavesPerIncrease == 0)
+        if (currentWave % wavesPerIncrease == 2)
         {
-            minMachinesPerWave += machineIncreaseAmount;
-            maxMachinesPerWave += machineIncreaseAmount;
+            if (isMinIncreased)
+            {
+                minMachinesPerWave += minMachineIncreaseAmount;
+                waveInterval += 2f;
+            }
+            maxMachinesPerWave += maxMachineIncreaseAmount;
             appliedIncreaseCount++;
-            waveInterval -= 0.5f;
+            isMinIncreased = true;
 
             Debug.Log(
                 "Wave scaling applied. Min: " + minMachinesPerWave +

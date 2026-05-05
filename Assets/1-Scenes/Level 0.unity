@@ -230,6 +230,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (63)
@@ -427,6 +439,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (65)
@@ -485,6 +509,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
@@ -599,6 +631,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -1559,6 +1603,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (8)
@@ -1912,6 +1968,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (26)
@@ -2231,6 +2299,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (47)
@@ -2321,6 +2401,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -2622,6 +2714,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (58)
@@ -2680,6 +2784,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -2771,8 +2887,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1922811998}
     - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
       propertyPath: repairSuccessSound
@@ -2901,6 +3021,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5496421911256812146, guid: 65e50d61ffdf8ec41b3fe7d283642f7c, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496421911256812146, guid: 65e50d61ffdf8ec41b3fe7d283642f7c, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496421911256812146, guid: 65e50d61ffdf8ec41b3fe7d283642f7c, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6289218516697312167, guid: 65e50d61ffdf8ec41b3fe7d283642f7c, type: 3}
       propertyPath: m_Name
       value: box-long
@@ -3560,6 +3692,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (57)
@@ -3618,6 +3762,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
@@ -3878,6 +4030,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (7)
@@ -4022,10 +4186,11 @@ MonoBehaviour:
   levelStartDelay: 2
   waveInterval: 6
   minMachinesPerWave: 1
-  maxMachinesPerWave: 2
+  maxMachinesPerWave: 1
   wavesPerIncrease: 3
   maxIncreaseCount: 3
-  machineIncreaseAmount: 1
+  maxMachineIncreaseAmount: 1
+  minMachineIncreaseAmount: 1
   useSequentialOrder: 0
 --- !u!4 &409274931
 Transform:
@@ -4364,6 +4529,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (49)
@@ -4429,6 +4606,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6df8bd6604d64ac489cdb5b666771eca, type: 3}
       propertyPath: m_Name
       value: indicator-special-lines (2)
@@ -4484,6 +4669,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -4611,8 +4808,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1075944518}
     - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
       propertyPath: repairSuccessSound
@@ -4755,6 +4956,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -4956,6 +5169,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -5349,6 +5574,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
       propertyPath: m_Name
       value: ladder-color (2)
@@ -5496,6 +5729,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -5718,6 +5963,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
       propertyPath: m_Name
       value: structure-window (1)
@@ -5781,6 +6038,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
@@ -5957,6 +6222,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (30)
@@ -6015,6 +6292,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -6217,6 +6506,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: box-wide (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3979075546940248601, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979075546940248601, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979075546940248601, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6405,6 +6706,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -6721,6 +7034,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (59)
@@ -6779,6 +7104,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -7008,6 +7345,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -7464,6 +7813,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (10)
@@ -7522,6 +7883,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -7587,6 +7960,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
@@ -7752,6 +8133,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
       propertyPath: m_Name
       value: indicator-square-c
@@ -7814,7 +8203,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2874424219019721749, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
@@ -7864,6 +8254,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -8175,6 +8577,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6931b16310cf8a14f8795071ed429ce9, type: 3}
       propertyPath: m_Name
       value: structure-window
@@ -8310,6 +8724,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (43)
@@ -8442,6 +8868,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -8598,7 +9036,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2874424219019721749, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
@@ -8648,6 +9087,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -8715,8 +9166,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2001394173}
     - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
       propertyPath: repairSuccessSound
@@ -8821,6 +9276,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
       propertyPath: m_Name
       value: structure-corner-outer
@@ -8883,7 +9350,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2874424219019721749, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
@@ -8972,7 +9440,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2874424219019721749, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
@@ -9022,6 +9491,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -9178,6 +9659,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -9593,6 +10086,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (2)
@@ -9616,6 +10121,10 @@ PrefabInstance:
     - target: {fileID: 1635736486481915326, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
       propertyPath: m_Name
       value: conveyor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387911115122449856, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7045361973941925956, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10164,6 +10673,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (51)
@@ -10497,6 +11018,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (52)
@@ -10557,6 +11090,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (66)
@@ -10615,6 +11160,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -10950,6 +11507,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (61)
@@ -11107,6 +11676,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -11475,6 +12056,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -11995,6 +12588,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (25)
@@ -12053,6 +12658,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -12256,7 +12873,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2874424219019721749, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
@@ -12535,6 +13153,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
@@ -13331,6 +13957,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (27)
@@ -13457,6 +14095,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac43253eaf65d464aa6afe15b67f0595, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ac43253eaf65d464aa6afe15b67f0595, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ac43253eaf65d464aa6afe15b67f0595, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ac43253eaf65d464aa6afe15b67f0595, type: 3}
@@ -13772,6 +14418,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (15)
@@ -13830,6 +14488,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -14125,6 +14795,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (53)
@@ -14185,6 +14867,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
       propertyPath: m_Name
       value: pipe-corner (2)
@@ -14240,6 +14930,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -14307,7 +15009,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2874424219019721749, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ee8f29a4f2bafb4a870aecbf079ab60, type: 3}
@@ -14571,6 +15274,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (69)
@@ -14809,6 +15524,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -15098,6 +15825,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (64)
@@ -15197,6 +15936,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c4e38cef1dcff7847b35a602df763747, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c4e38cef1dcff7847b35a602df763747, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c4e38cef1dcff7847b35a602df763747, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c4e38cef1dcff7847b35a602df763747, type: 3}
@@ -15333,6 +16080,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (17)
@@ -15370,8 +16129,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1375561158}
     - target: {fileID: 926320770315688791, guid: 37983ea1e0caa9d44b907309d486f323, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 926320770315688791, guid: 37983ea1e0caa9d44b907309d486f323, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 926320770315688791, guid: 37983ea1e0caa9d44b907309d486f323, type: 3}
       propertyPath: repairSuccessSound
@@ -15502,6 +16265,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
@@ -15806,6 +16577,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aa8d8cece41efbf4c8df3f26c52a298e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aa8d8cece41efbf4c8df3f26c52a298e, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aa8d8cece41efbf4c8df3f26c52a298e, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: aa8d8cece41efbf4c8df3f26c52a298e, type: 3}
       propertyPath: m_Name
       value: floor
@@ -15864,6 +16647,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -15956,6 +16751,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -16306,6 +17113,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (29)
@@ -16430,6 +17249,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (3)
@@ -16545,6 +17376,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -16720,6 +17563,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (37)
@@ -16777,8 +17632,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1209658474}
     - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
       propertyPath: repairSuccessSound
@@ -17041,6 +17900,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: box-small
       objectReference: {fileID: 0}
+    - target: {fileID: 3474107680415617976, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474107680415617976, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474107680415617976, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17104,6 +17975,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b07ad9baf0a31c41b833da9452fb87b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b07ad9baf0a31c41b833da9452fb87b, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b07ad9baf0a31c41b833da9452fb87b, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b07ad9baf0a31c41b833da9452fb87b, type: 3}
@@ -17392,6 +18271,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4561e92f49640354fb14dcac94ca0bc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4561e92f49640354fb14dcac94ca0bc3, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4561e92f49640354fb14dcac94ca0bc3, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4561e92f49640354fb14dcac94ca0bc3, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4561e92f49640354fb14dcac94ca0bc3, type: 3}
@@ -17863,6 +18754,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (9)
@@ -17998,6 +18901,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1626c1b5b2339574fb59442cb7757025, type: 3}
       propertyPath: m_Name
       value: ladder-color (1)
@@ -18061,6 +18972,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -18320,6 +19243,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d653a51b4ffb7624d8b0dc2d0270339a, type: 3}
       propertyPath: m_Name
       value: indicator-square-e
@@ -18527,6 +19458,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (71)
@@ -18616,6 +19559,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -18827,8 +19782,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1899519590}
     - target: {fileID: 8240665145409386068, guid: a8d43637a88537645a81503cdcb11d70, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240665145409386068, guid: a8d43637a88537645a81503cdcb11d70, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8240665145409386068, guid: a8d43637a88537645a81503cdcb11d70, type: 3}
       propertyPath: repairSuccessSound
@@ -19247,6 +20206,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (11)
@@ -19415,6 +20386,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (45)
@@ -19542,6 +20525,18 @@ PrefabInstance:
     - target: {fileID: 3113815793508201069, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
       propertyPath: m_Name
       value: box-small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474107680415617976, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474107680415617976, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474107680415617976, guid: 66ccff60b03509a4cbfd1dc022155493, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19774,6 +20769,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd528f1ee165e2b48ab8462bc83d8c04, type: 3}
       propertyPath: m_Name
       value: indicator-square-b (1)
@@ -19829,6 +20832,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -20023,6 +21038,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9ca885aa719b31b48a39c35c9cfbfdb8, type: 3}
@@ -20277,6 +21300,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -20635,6 +21670,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_Name
       value: structure-wall (14)
@@ -20698,6 +21745,18 @@ PrefabInstance:
     - target: {fileID: 3186429023697679308, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
       propertyPath: m_Name
       value: box-wide
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979075546940248601, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979075546940248601, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979075546940248601, guid: 5348cf5c67996034eaba038fec0bb1cf, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20782,6 +21841,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
@@ -21123,6 +22190,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 56628ca7ba12a0e439b235346e8b65b1, type: 3}
@@ -21664,6 +22739,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d98a9f2a0d1fb3b4a843eb2264c435df, type: 3}
       propertyPath: m_Name
       value: structure-corner-outer (1)
@@ -21831,6 +22918,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_MotionVectors
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
+      propertyPath: m_LightProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d511043cc0bc3f4883b0e4d1f6442a6, type: 3}
@@ -22006,7 +23105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3104973535594267028, guid: aa64c5d0665137b4b83c3db58e7999a4, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3305238108737766327, guid: aa64c5d0665137b4b83c3db58e7999a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22203,8 +23302,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1103495363}
     - target: {fileID: 8240665145409386068, guid: a8d43637a88537645a81503cdcb11d70, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240665145409386068, guid: a8d43637a88537645a81503cdcb11d70, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8240665145409386068, guid: a8d43637a88537645a81503cdcb11d70, type: 3}
       propertyPath: repairSuccessSound
@@ -22274,8 +23377,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1031093218}
     - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8340822197114107568, guid: 6e0b0ba89e8b2db45aa4a6d3b34edc99, type: 3}
       propertyPath: repairSuccessSound
@@ -22369,8 +23476,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1814174485}
     - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5637906649383763845, guid: f62b8da99ebce1a4bb7ec3c622577781, type: 3}
       propertyPath: repairSuccessSound
@@ -22460,8 +23571,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2023761832}
     - target: {fileID: 926320770315688791, guid: 37983ea1e0caa9d44b907309d486f323, type: 3}
+      propertyPath: brokenDuration
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 926320770315688791, guid: 37983ea1e0caa9d44b907309d486f323, type: 3}
       propertyPath: rebreakCooldown
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 926320770315688791, guid: 37983ea1e0caa9d44b907309d486f323, type: 3}
       propertyPath: repairSuccessSound

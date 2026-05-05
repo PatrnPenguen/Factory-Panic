@@ -83,24 +83,24 @@ public class MinigameUIManager : MonoBehaviour
     {
         if (tapRepairPanel == null) return;
 
-        int pressCount = 7;
+        int pressCount = 5;
         float timeLimit = 5f;
 
         switch (difficulty)
         {
             case MinigameDifficulty.Easy:
-                pressCount = 7;
-                timeLimit = 5f;
+                pressCount = 5;
+                timeLimit = 7f;
                 break;
 
             case MinigameDifficulty.Medium:
-                pressCount = 14;
-                timeLimit = 5f;
+                pressCount = 9;
+                timeLimit = 6f;
                 break;
 
             case MinigameDifficulty.Hard:
-                pressCount = 21;
-                timeLimit = 4f;
+                pressCount = 13;
+                timeLimit = 7f;
                 break;
         }
 
@@ -123,25 +123,25 @@ public class MinigameUIManager : MonoBehaviour
         {
             case MinigameDifficulty.Easy:
                 moveSpeed = 1.2f;
-                successMin = 0.32f;
-                successMax = 0.68f;
-                timeLimit = 5f;
+                successMin = 0.30f;
+                successMax = 0.70f;
+                timeLimit = 7f;
                 stageCount = 1;
                 break;
 
             case MinigameDifficulty.Medium:
                 moveSpeed = 1.5f;
-                successMin = 0.36f;
-                successMax = 0.64f;
-                timeLimit = 4.5f;
+                successMin = 0.35f;
+                successMax = 0.65f;
+                timeLimit = 6f;
                 stageCount = 2;
                 break;
 
             case MinigameDifficulty.Hard:
-                moveSpeed = 1.9f;
-                successMin = 0.40f;
-                successMax = 0.60f;
-                timeLimit = 5f;
+                moveSpeed = 1.7f;
+                successMin = 0.38f;
+                successMax = 0.62f;
+                timeLimit = 7f;
                 stageCount = 3;
                 break;
         }
@@ -162,7 +162,7 @@ public class MinigameUIManager : MonoBehaviour
         {
             case MinigameDifficulty.Easy:
                 sequenceLength = 3;
-                timeLimit = 6f;
+                timeLimit = 7f;
                 break;
 
             case MinigameDifficulty.Medium:
@@ -172,7 +172,7 @@ public class MinigameUIManager : MonoBehaviour
 
             case MinigameDifficulty.Hard:
                 sequenceLength = 7;
-                timeLimit = 5f;
+                timeLimit = 7f;
                 break;
         }
 
@@ -195,29 +195,29 @@ public class MinigameUIManager : MonoBehaviour
         switch (difficulty)
         {
             case MinigameDifficulty.Easy:
-                fillSpeed = 0.55f;
+                fillSpeed = 0.65f;
                 drainSpeed = 0.25f;
-                successMin = 0.35f;
-                successMax = 0.75f;
-                timeLimit = 6f;
+                successMin = 0.36f;
+                successMax = 0.76f;
+                timeLimit = 7f;
                 stageCount = 1;
                 break;
 
             case MinigameDifficulty.Medium:
-                fillSpeed = 0.70f;
+                fillSpeed = 0.75f;
                 drainSpeed = 0.35f;
-                successMin = 0.42f;
-                successMax = 0.68f;
-                timeLimit = 5f;
+                successMin = 0.40f;
+                successMax = 0.70f;
+                timeLimit = 6f;
                 stageCount = 2;
                 break;
 
             case MinigameDifficulty.Hard:
                 fillSpeed = 0.95f;
                 drainSpeed = 0.45f;
-                successMin = 0.48f;
-                successMax = 0.62f;
-                timeLimit = 4f;
+                successMin = 0.46f;
+                successMax = 0.66f;
+                timeLimit = 7f;
                 stageCount = 3;
                 break;
         }
